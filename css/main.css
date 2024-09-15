@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(173, 197, 78);
+}
+.container{
+    margin-top: 50px;
+    padding: 30px;
+    margin-left: 440px;
+    margin-right: 440px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 40%;
+}
+.head{
+    font-family: sans-serif;
+    text-align: center;
+}
+h2{
+    color: rgb(42, 42, 249);
+}
+.form{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 30px 30px;
+    flex-direction: column;
+}
+.fa-user,.fa-lock{
+    display: grid;
+    text-align: end;
+    position: absolute;
+    width: 23%;
+
+}
+.form-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-weight: bold;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ddd8d8;
+}
+.login{
+    color: white;
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+.forgot{
+    color: rgb(3, 89, 139);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    color: rgb(3, 89, 139);
+    gap: 30px;
+    font-family: sans-serif;
+}
+.language{
+    font-family: font-family: "Noto Serif SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;;
+}
